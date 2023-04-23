@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<string.h>
 void trim(char []);
 int main()
 {
-	char s[40];
+	char s[50];
 	printf("Enter string\n");
 	scanf("%[^\n]s",s);
 	trim(s);
